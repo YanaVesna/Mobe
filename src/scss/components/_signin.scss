@@ -1,0 +1,251 @@
+@import "../_variables.scss";
+
+.overlaySignIn {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-window {
+  position: absolute;
+  width: 55%;
+  background-color: $white;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 32px 96px 32px;
+  align-items: center;
+  max-width: 800px;
+  max-height: 550px;
+}
+
+.signin-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.signin-field {
+  margin-top: 20px;
+  width: 70%;
+  height: auto;
+
+  a {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: 40px;
+    color: $black;
+  }
+
+  p {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: $grey;
+    margin: 16px 0 8px 0;
+  }
+}
+
+.input__box,
+.input__error {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  padding: 4px 5%;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.input__error {
+  border: 1px solid red;
+}
+
+.input__box {
+  border: 1px solid $greyLight;
+}
+
+.signin-password {
+  display: flex;
+  margin: 26px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.signin-remember,
+.signin-forgot {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.signin-remember {
+  p {
+    color: $grey;
+    padding-bottom: 1px;
+  }
+}
+
+.signin-forgot {
+  color: $violet;
+  cursor: pointer;
+}
+
+.signin-button {
+  width: 100%;
+  padding: 14px 0;
+  background-color: $violet;
+  color: $white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+
+  &:hover {
+    background-color: $violetDark2;
+  }
+}
+
+.signin-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+.signin-buttons {
+  width: 50%;
+  border-radius: 4px;
+  border: 1px solid var(--grey, #747474);
+  background: var(--foundation-gray-neutral-100, #fff);
+}
+
+.signin-links1 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.signin-a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 16px 0;
+  p {
+    font-size: 12px;
+  }
+}
+
+.signin-eye {
+  position: relative;
+}
+
+.signin-form-eye,
+.signin-form-eye-error {
+  position: absolute;
+  transform: translateY(-50%);
+  right: 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.signin-form-eye {
+  top: 55%;
+}
+
+.signin-form-eye-error {
+  top: 42%;
+}
+
+.signin-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: $greyLight;
+  margin-top: 30px;
+
+  p {
+    color: $greyLight;
+  }
+
+  a {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+}
+
+.remember {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1px solid $greyLight;
+}
+
+@media (max-width: 750px) {
+  .signin-links {
+    display: block;
+  }
+
+  .signin-buttons {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .signin-field {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .signin-forgot,
+  .signin-remember {
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .signin-field,
+  .signin-box {
+    width: 80%;
+  }
+
+  .signin-window {
+    position: absolute;
+    width: 100%;
+    padding: 100%;
+  }
+}

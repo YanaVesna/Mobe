@@ -1,0 +1,26 @@
+.logos__block {
+  margin: 40px auto 64px auto;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .logos__block {
+    margin: 40px 40px 64px 40px;
+  }
+}
+
+@media (max-width: 430px) {
+  .logos__block {
+    margin: 40px 16px 64px 16px;
+  }
+}

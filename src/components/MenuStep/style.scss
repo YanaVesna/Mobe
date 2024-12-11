@@ -1,0 +1,21 @@
+.menuStep__titlemenu {
+  display: flex;
+  flex-direction: row;
+  padding-top: 24px;
+  align-items: stretch;
+  gap: 5px;
+  a {
+    font-size: 14px;
+    color: var(--dark-grey, #30293d);
+  }
+
+  img {
+    margin-top: -3px;
+  }
+}
+
+.menuStep__Lablemenu {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": 0,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W max USB-C Power Adapter White",
+    "pricePlus": 20,
+    "pricePlusNew": 10
+  },
+  {
+    "id": 1,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 22W USB Power Adapter White",
+    "pricePlus": 30,
+    "pricePlusNew": 15
+  },
+  {
+    "id": 2,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W USB-T Power Adapter White",
+    "pricePlus": 12,
+    "pricePlusNew": 6
+  },
+  {
+    "id": 3,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W USB-C Adapter White",
+    "pricePlus": 18,
+    "pricePlusNew": 9
+  },
+  {
+    "id": 4,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W USB-C Power Adapter Blue",
+    "pricePlus": 17,
+    "pricePlusNew": 8
+  },
+  {
+    "id": 5,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 25W USB-C Adapter White",
+    "pricePlus": 24,
+    "pricePlusNew": 12
+  },
+  {
+    "id": 6,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W USB-U Power Adapter White",
+    "pricePlus": 15,
+    "pricePlusNew": 8
+  },
+  {
+    "id": 7,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W USB-O Power Adapter White",
+    "pricePlus": 26,
+    "pricePlusNew": 13
+  },
+  {
+    "id": 8,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 20W USB-X Adapter White",
+    "pricePlus": 40,
+    "pricePlusNew": 20
+  },
+  {
+    "id": 9,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 35W USB-C Power Adapter White",
+    "pricePlus": 50,
+    "pricePlusNew": 25
+  },
+  {
+    "id": 10,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 40W USB-C Power Adapter White",
+    "pricePlus": 36,
+    "pricePlusNew": 18
+  },
+  {
+    "id": 11,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 50W USB-C Power Adapter White",
+    "pricePlus": 30,
+    "pricePlusNew": 15
+  },
+  {
+    "id": 12,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network Apple 20W USB-C Power Adapter White",
+    "pricePlus": 28,
+    "pricePlusNew": 14
+  },
+  {
+    "id": 13,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger 80W USB-C Power Adapter White",
+    "pricePlus": 20,
+    "pricePlusNew": 10
+  },
+  {
+    "id": 14,
+    "srcPlus": "./img/stacker.png",
+    "titlePlus": "Network charger Apple 27W USB-C Power Adapter White",
+    "pricePlus": 14,
+    "pricePlusNew": 7
+  }
+]

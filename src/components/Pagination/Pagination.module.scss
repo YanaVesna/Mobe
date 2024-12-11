@@ -1,0 +1,31 @@
+@import "../../scss/_variables.scss";
+
+.root {
+  li {
+    display: inline-block;
+    a {
+      display: flex;
+      justify-content: center;
+      color: $greyLight;
+      text-align: center;
+      width: 20px;
+      padding: 10px;
+      border: 1px solid var(--Grey-20, #e3e3e3);
+      margin-right: 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: $violet;
+        color: #ffff;
+      }
+    }
+  }
+  :global {
+    .selected {
+      a {
+        /*  background-color: $violet; */
+        color: $grey;
+        font-weight: 700;
+      }
+    }
+  }
+}

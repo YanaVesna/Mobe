@@ -1,0 +1,67 @@
+.slide-boxCard {
+  max-width: 1140px;
+  margin-bottom: 112px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: var(--violet-accent, #8732c9);
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+}
+
+.slider5 {
+  width: 90%;
+  padding: 15px 0px;
+  margin: 0 auto;
+}
+
+.slider5 .swiper-slide {
+  margin-right: 8px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.reviewsSlide {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 232px;
+  padding: 24px;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--Grey-20, #e3e3e3);
+  background: var(--white, #fdfdfd);
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  p,
+  span {
+    text-decoration: none;
+  }
+
+  span {
+    font-weight: 600;
+  }
+}
+
+.slider5 .swiper-container {
+  width: 100%;
+  margin-bottom: 112px;
+  margin: 0 auto;
+}

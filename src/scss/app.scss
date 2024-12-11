@@ -1,0 +1,117 @@
+@import "./_variables.scss";
+@import "./libs/normalize.scss";
+@import "./components/_all.scss";
+
+.home {
+  margin-top: 164px;
+
+  &__slider-logos {
+    margin: 0 150px;
+  }
+}
+
+.unterline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: $violet; */
+  height: 100%;
+}
+
+.goback {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+
+  p {
+    margin-left: 5px;
+    color: $violet;
+    font-weight: 700;
+  }
+}
+
+.empty {
+  padding: 10px;
+  border: 1px solid $greyLight;
+  margin: 20px auto;
+  width: 100%;
+  border-radius: 4px;
+
+  &__text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  h2 {
+    color: $violetDark;
+  }
+}
+
+.auto-button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  .catalog__catalogBox {
+    padding: 0 150px;
+    height: auto;
+    width: auto;
+  }
+
+  &[type="white"] {
+    background: $white;
+
+    &:hover {
+      background-color: $violet;
+      color: $white;
+    }
+  }
+
+  &[type="violet"] {
+    background: $violet;
+    color: $white;
+    &:hover {
+      background-color: $violetDark;
+    }
+  }
+
+  &[type="black"] {
+    background: $black;
+    color: $white;
+    &:hover {
+      background-color: $violetDark;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .home {
+    &__slider-logos {
+      margin: 0 40px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .home {
+    margin-top: 152px;
+
+    &__slider-logos {
+      margin: 0;
+    }
+  }
+
+  .auto-button[type="violet"] {
+    font-size: 10px;
+  }
+}

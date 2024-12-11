@@ -1,0 +1,13 @@
+
+.admin-exit{
+display: flex;
+align-items: center;
+gap: 8px;
+padding: 16px;
+width: 237px;
+box-sizing: border-box;
+
+}
+.admin-exit:hover{
+	background: var(--violet-400, #D4D9E8);
+}

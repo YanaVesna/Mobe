@@ -1,0 +1,10 @@
+.more-btn {
+  display: none;
+}
+@media (max-width: 490px) {
+  .more-btn {
+   display: block;
+   text-align: end;
+   padding-bottom: 16px;
+  }
+}

@@ -1,0 +1,78 @@
+[class$="__container"] {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin-bottom: 112px;
+}
+.section__container {
+  position: relative;
+}
+.section__content {
+  display: flex;
+  gap: 24px;
+}
+.section__title {
+  margin-bottom: 20px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-pagination {
+  bottom: 0;
+  top: auto !important;
+}
+
+.swiper__slide {
+  max-width: 267px;
+}
+.swiper.mainSwiper .swiper-slide-active {
+  max-width: 267px;
+}
+:root {
+  --swiper-theme-color: #8c00ff;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 2;
+  width: 330px;
+  border-radius: 24px;
+  padding: 12px 16px 24px 16px;
+
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+  }
+
+  .popup__inner {
+    display: flex;
+    align-items: center;
+  }
+}
+.popup-btn {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 800px) {
+  .section {
+    margin-bottom: 64px;
+  }
+}

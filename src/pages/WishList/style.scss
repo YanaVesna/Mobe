@@ -1,0 +1,255 @@
+[class$="__container"] {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wish-list__section {
+  margin-top: 238px;
+}
+
+.wish-list__clear-btn {
+  background: transparent;
+  cursor: pointer;
+}
+
+.wish-list__container {
+  position: relative;
+  display: flex;
+  gap: 24px;
+}
+.wish-list__close {
+  height: 40px;
+  display: flex;
+  justify-content: end;
+}
+.wish-list__title {
+  margin-bottom: 32px;
+}
+.wish-list__content {
+  margin-bottom: 96px;
+}
+.wish-list__title {
+  margin-bottom: 20px;
+}
+
+.wish-list__title h3 {
+  margin-top: 0;
+}
+.wish-list__card {
+  max-width: 267px;
+}
+
+.wish-list__card-photo img {
+  width: 267px;
+  height: 234px;
+}
+.wish-list__inner {
+  position: relative;
+  margin-bottom: 64px;
+}
+.wish-list__card-photo {
+  margin-bottom: 10px;
+}
+.wish-list__card-content {
+  padding: 12px;
+  background: var(--Grey-light, #f5f5f5);
+  margin-bottom: 32px;
+}
+
+.wish-list__card-title {
+  text-align: center;
+  margin-bottom: 12px;
+}
+/* .rating {
+  display: flex;
+  justify-content: space-between;
+} */
+.wish-list__price {
+  display: flex;
+  justify-content: space-between;
+}
+.wish-list__card-oldprice {
+  text-decoration: line-through;
+}
+.wish-list__card-newprice {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.wish-list__absence {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.wish-list__admin h2 {
+  margin-bottom: 40px;
+}
+.wish-list__box {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.wish-list__admin_inner {
+  margin-bottom: 107px;
+}
+
+.heart-wish {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.heart-wish svg {
+  fill: red;
+  stroke: red;
+}
+.heart-wish svg path {
+  fill: red;
+  stroke: red;
+}
+
+.weight-wish {
+  position: absolute;
+  top: 40px;
+  right: 8px;
+}
+.wish-chat {
+  display: none;
+  justify-content: end;
+}
+.wish-subscribe {
+  display: none;
+}
+.wish-hotprice {
+  display: none;
+}
+.wish-list__content.hidden {
+  display: none;
+}
+.title-inner svg {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .wish-chat {
+    display: flex;
+    margin-bottom: 32px;
+    padding-right: 16px;
+  }
+  .wish-list__card {
+    max-width: 343px;
+  }
+  .wish-subscribe {
+    display: block;
+  }
+  .wish-list__content {
+    margin-bottom: 24px;
+  }
+  .wish__sub {
+    margin-bottom: 64px;
+  }
+  .wish-hotprice {
+    display: block;
+  }
+  .wish-hotprice h3 {
+    padding-left: 15px;
+  }
+  .wish-list__card {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .wish-list__card-photo img {
+    margin-bottom: 0;
+  }
+  .wish-list__box {
+    gap: 24px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .title-inner {
+    display: flex;
+    align-items: center;
+  }
+  .title-inner h3 {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 490px) {
+  .wish-list__close {
+    display: none;
+  }
+  .title-inner svg {
+    display: block;
+  }
+  .wish-list__title {
+    background: var(--violet-400, #d4d9e8);
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  .wish-list__inner {
+    display: flex;
+  }
+  .wish-list__card-content {
+    padding: 0;
+  }
+  .wish-list__container {
+    display: block;
+  }
+  .wish-list__admin {
+    display: none;
+  }
+  .weight-wish {
+    display: none;
+  }
+  .heart-wish {
+    display: none;
+  }
+  .wish-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .wish-list__clear-btn {
+    display: none;
+  }
+  .wish-list__card-content {
+    max-width: 175px;
+  }
+  .wish-list__card.rating {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+  }
+  .wish-list__card-photo img {
+    max-width: 164px;
+    max-height: 159px;
+  }
+  .wish-list__card-content {
+    margin-bottom: 16px;
+    width: 175px;
+  }
+  .wish-list__inner {
+    margin-bottom: 0;
+  }
+  .wish-list__card-title {
+    text-align: start;
+  }
+  .wish-list__price-inner {
+    padding-left: 6px;
+  }
+  .wish-flex {
+    padding: 5px;
+  }
+  .wish-list__price {
+    gap: 30px;
+  }
+  .wish-list__title h3 {
+    font-size: 16px;
+  }
+  .wish-list__admin.visible {
+    display: block;
+  }
+}

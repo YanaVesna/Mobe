@@ -1,0 +1,20 @@
+.compare__link {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #8732c9;
+  margin-left: 20px;
+  font-size: 12px;
+  top: 107px;
+}
+
+@media (max-width: 430px) {
+  .compare__link {
+    top: 18px;
+  }
+}

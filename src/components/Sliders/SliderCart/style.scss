@@ -1,0 +1,76 @@
+@import "../../../scss/_variables.scss";
+
+.swiper__box {
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+swiper-container {
+  height: auto;
+
+  &::part(bullet) {
+    background-color: $violet-400;
+  }
+}
+
+.slide__box1,
+.slide__box2 {
+  display: flex;
+  flex-direction: row;
+  height: 170px;
+  width: 50%;
+
+  img {
+    height: 130px;
+  }
+}
+
+.slide__title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  p {
+    font-size: 12px;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.span.old {
+  text-decoration: line-through;
+}
+
+.swiper-container.slider1 .swiper-slide-active,
+.swiper-container.slider1 .swiper-slide {
+  width: 100% !important;
+}
+
+@media (max-width: 850px) {
+  .swiper__box {
+    flex-direction: column;
+  }
+  .slide__boxes {
+    flex-direction: column;
+    margin: 40px 0;
+  }
+  .slide__box1,
+  .slide__box2 {
+    width: 100%;
+    height: 130px;
+  }
+
+  .slide__box1 {
+    padding-top: 40px;
+  }
+
+  .slide__box2 {
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,25 @@
+.chat svg:hover circle {
+  fill: var(--Violet-Dark, #530d8a);
+}
+.chat {
+  cursor: pointer;
+}
+
+.chat__cont {
+  display: flex;
+  justify-content: flex-end;
+  width: 110%;
+}
+
+@media (max-width: 1300px) {
+  .chat__cont {
+    width: 90vw;
+  }
+}
+
+.chat-home {
+  position: fixed;
+  top: 60%;
+  cursor: pointer;
+  z-index: 10;
+}

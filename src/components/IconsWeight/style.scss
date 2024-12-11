@@ -1,0 +1,29 @@
+.weight {
+  cursor: pointer;
+  fill: currentColor;
+  .weight path {
+    stroke: currentColor;
+  }
+}
+.weight:hover path {
+  stroke: #110119;
+}
+.weight.relative {
+  position: static;
+}
+
+.weight.relative path {
+  stroke: white;
+}
+
+.weight .relative span {
+  position: absolute;
+}
+
+.weight.mobile path {
+  stroke: #000;
+}
+.check{
+  position: absolute;
+  left: 15px;
+}
